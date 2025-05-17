@@ -52,7 +52,7 @@
 - The Event Loop
 
 
-Difference between Node.js and the Browser
+### Difference between Node.js and the Browser
 
 1. Same Language, Different Environments 
 Both use JavaScript, but development experience is radically different.
@@ -74,34 +74,36 @@ Browser: Supports only ES Modules (import), and adoption is still evolving.
 Using JavaScript across both client and server sides simplifies the learning curve and increases productivity for full-stack developers.
 
 
-The V8 JavaScript Engine:
-What is V8? 
-JavaScript engine developed by Google, used in Google Chrome and Node.js
-Parses and executes JavaScript code; it does not include the DOM (Document Object Model) or Web APIs - those come from the browser.
-V8 is browser-independent, enabling its use in Node.js and other platforms.
+### The V8 JavaScript Engine:
+#### What is V8? 
+- JavaScript engine developed by Google, used in Google Chrome and Node.js
+- Parses and executes JavaScript code; it does not include the DOM (Document Object Model) or Web APIs - those come from the browser.
+- V8 is browser-independent, enabling its use in Node.js and other platforms.
 
-Role in Node.js and Beyond:
-Chosen as the engine for Node.js in 2009.
-Powers not just servers but desktop apps too (eg. via Electron).
-A major reason behind the rise of JavaScript on the server-side
+#### Role (of V8)  in Node.js and Beyond:
+- Chosen as the engine for Node.js in 2009.
+- Powers not just servers but desktop apps too (eg. via Electron).
+- A major reason behind the rise of JavaScript on the server-side
 
-Other JavaScript Engines
-Firefox -> SpiderMonkey
-Safari - JavaScriptCore (aka Nitro)
-Microsoft Edge -> Originally Chakra, now V8 (via Chromium)
-All conform to the ECMAScript (ECMA -262_ standard
+#### Other JavaScript Engines
+- Firefox -> SpiderMonkey
+- Safari - JavaScriptCore (aka Nitro)
+- Microsoft Edge -> Originally Chakra, now V8 (via Chromium)
+- All conform to the ECMAScript (ECMA -262_ standard
 
-Probability & Development : 
-V8 is written in C++, runs on MAC, Windows, Linux, etc
-Continuously evolving for performance improvements.
-Part of an ongoing performance race among JS engines, benefiting both developers and users.
+#### Probability & Development : 
+- V8 is written in C++, runs on MAC, Windows, Linux, etc
+- Continuously evolving for performance improvements.
+- Part of an ongoing performance race among JS engines, benefiting both developers and users.
 
-Compilation vs Interpretation in JavaScript (with V8)  [AI generated] 
-Traditional Interpretation (Pre-V8 Era)
+#### Compilation vs Interpretation in JavaScript (with V8)  [AI generated] 
+
+##### Traditional Interpretation (Pre-V8 Era)
 JavaScript was originally interpreted, meaning the code was read and executed line-by-line, directly and immediately by the browser.
 While this made JavaScript simple and flexible, it came at the cost of performance—especially for large or complex applications.
 Each time code ran, it had to be parsed and executed from scratch, with no reuse or optimization.
- V8 and Just-In-Time (JIT) Compilation
+
+##### V8 and Just-In-Time (JIT) Compilation
 V8 introduced a game-changing approach: Just-In-Time (JIT) Compilation.
 Instead of purely interpreting JavaScript, V8 translates JavaScript into optimized machine code while the program is running.
 This is done in stages:
