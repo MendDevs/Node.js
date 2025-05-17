@@ -1,13 +1,13 @@
 # Node.js
 
-##Introduction to Node.js [Source: https://nodejs.org/en/learn/getting-started/how-much-javascript-do-you-need-to-know-to-use-nodejs]
+## Introduction to Node.js [Source: https://nodejs.org/en/learn/getting-started/how-much-javascript-do-you-need-to-know-to-use-nodejs]
 
-###What is Node.js?
+### What is Node.js?
 - It is Open-source, cross-platform JavaScript runtime.
 - It is built on Google Chrome’s V8 engine, allowing JS to run outside the browser.
 - Ideal for building fast and scalable applications.
 
-###Architecture & Performance:
+### Architecture & Performance:
 - Single-threaded with non-blocking asynchronous I/O (Input/ Output).
 - Handles thousands of concurrent connections without creating new threads.
 - Avoids CPU waste by resuming operations once I/O responses return.
@@ -33,22 +33,23 @@
 - Classes
 - Variables
 - Functions
-this operator
-Arrow Functions
-Loops 
-Scopes 
-Arrays
-Template Literals
-Strict Mode
-ECMAScript 2015 (ES6) and beyond
-Asynchronous JavaScript
-ii) For Asynchronous Programming:
-Asynchronous Programming and Callbacks
-Timers
-Promises 
-Async and Await
-Closures 
-The Event Loop
+- this operator
+- Arrow Functions
+- Loops 
+- Scopes 
+- Arrays
+- Template Literals
+- Strict Mode
+- ECMAScript 2015 (ES6) and beyond
+- Asynchronous JavaScript
+  
+#### ii) For Asynchronous Programming:
+- Asynchronous Programming and Callbacks
+- Timers
+- Promises 
+- Async and Await
+- Closures 
+- The Event Loop
 
 
 Difference between Node.js and the Browser
