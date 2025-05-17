@@ -106,25 +106,27 @@ Each time code ran, it had to be parsed and executed from scratch, with no reuse
 ##### V8 and Just-In-Time (JIT) Compilation
 V8 introduced a game-changing approach: Just-In-Time (JIT) Compilation.
 Instead of purely interpreting JavaScript, V8 translates JavaScript into optimized machine code while the program is running.
-This is done in stages:
-Initially interprets the code for quick startup.
-Then analyzes performance-critical parts (hot paths).
-Compiles those parts into machine code for faster execution.
-Continuously optimizes or de-optimizes code based on actual usage (adaptive optimization).
-Why Is This Important?
-      In modern web apps, JavaScript codebases often have:
-Thousands of lines of code
-Intensive computations
-Apps that run for minutes or hours (e.g., Google Maps, online editors)
-In such cases, interpretation would be too slow and inefficient.
-JIT compilation ensures:
-Faster execution
-Lower CPU usage
-Better scalability for real-world applications
-Real-World Benefits
-Pages load faster.
-Applications run more smoothly.
-Users get a desktop-like experience in the browser.
-Developers don’t need to manually optimize performance at the machine level—V8 handles it intelligently.
+
+###### This is done in stages:
+- Initially interprets the code for quick startup.
+- Then analyzes performance-critical parts (hot paths).
+- Compiles those parts into machine code for faster execution.
+- Continuously optimizes or de-optimizes code based on actual usage (adaptive optimization).
+
+##### Why Is This Important?
+In modern web apps, JavaScript codebases often have:
+- Thousands of lines of code
+- Intensive computations
+- Apps that run for minutes or hours (e.g., Google Maps, online editors)
+- In such cases, interpretation would be too slow and inefficient.
+- JIT compilation ensures:
+- Faster execution
+- Lower CPU usage
+- Better scalability for real-world applications
+- Real-World Benefits
+- Pages load faster.
+- Applications run more smoothly.
+- Users get a desktop-like experience in the browser.
+- Developers don’t need to manually optimize performance at the machine level—V8 handles it intelligently.
 
 For more info [https://nodejs.org/en/learn/getting-started/fetch] 
