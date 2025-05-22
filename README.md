@@ -136,4 +136,26 @@ In modern web apps, JavaScript codebases often have:
 - Scalable Performance
 - Smoot user experiences
 
+## Common npm CLI Commands
+
+| Command                      | Description                                                              |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| `npm init`                   | Initializes a new Node.js project and creates a `package.json` file.     |
+| `npm install <package>`      | Installs a package and adds it to `node_modules`.                        |
+| `npm install`                | Installs all dependencies listed in `package.json`.                      |
+| `npm uninstall <package>`    | Removes a package and updates `package.json`.                            |
+| `npm update`                 | Updates all the packages to the latest version based on version ranges.  |
+| `npm run <script>`           | Runs a custom script defined in the `scripts` section of `package.json`. |
+| `npm list`                   | Lists installed packages in the current project.                         |
+| `npm outdated`               | Shows packages that are outdated.                                        |
+| `npm audit`                  | Checks for known security vulnerabilities in dependencies.               |
+| `npm install -g <package>`   | Installs a package globally.                                             |
+| `npm uninstall -g <package>` | Uninstalls a globally installed package.                                 |
+| `npm cache clean --force`    | Cleans the npm cache (useful for fixing install issues).                 |
+| `npm run dev`                | Runs the development script (e.g., starts a dev server).                 |
+| `npm start`                  | Runs the `start` script (commonly used to launch the app).               |
+| `npm test`                   | Runs the `test` script (used for testing).                               |
+| `npm build`                  | Runs the `build` script (e.g., to bundle/compile the app).               |
+
+
 For more info [https://nodejs.org/en/learn/getting-started/fetch] 
