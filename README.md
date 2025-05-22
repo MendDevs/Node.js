@@ -130,4 +130,10 @@ In modern web apps, JavaScript codebases often have:
 - Users get a desktop-like experience in the browser.
 - Developers don’t need to manually optimize performance at the machine level—V8 handles it intelligently.
 
+##### Benefits:
+- Faster Execution
+- Lower CPU usage
+- Scalable Performance
+- Smoot user experiences
+
 For more info [https://nodejs.org/en/learn/getting-started/fetch] 
